@@ -29,7 +29,8 @@ public class AppTest
     @DataProvider( name= "user")
     public Object[][] user(){
     return new Object[][]{
-              { "b", "123456"}
+              { "b", "123456"},
+              { "a", "123456"}
              
     };
 }
