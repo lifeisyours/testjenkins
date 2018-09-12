@@ -1,9 +1,9 @@
 package com.testjenkins;
 
-import static org.junit.Assert.assertTrue;
+
+import static org.testng.Assert.assertTrue;
 
 import org.testng.annotations.Test;
-
 
 
 /**
