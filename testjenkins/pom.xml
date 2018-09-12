@@ -30,23 +30,7 @@
    	<version>2.20.1</version>
    	<type>maven-plugin</type>
    </dependency>
-   <configuration>
-                    <argLine>
-                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
-                    </argLine>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
- 
-                    <properties>
-                        <property>
-                            <name>usedefaultlisteners</name>
-                            <value>false</value>
-                        </property>
-                    </properties>
-                    <!-- 使allure-results在target文件夹下（很重要） -->
-                    <workingDirectory>target/</workingDirectory>
-                </configuration>
+
   </dependencies>
   
 

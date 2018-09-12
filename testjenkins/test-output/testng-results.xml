@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="100" started-at="2018-09-12T02:49:46Z" finished-at="2018-09-12T02:49:46Z">
+  <suite name="Default suite" duration-ms="113" started-at="2018-09-12T05:05:40Z" finished-at="2018-09-12T05:05:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="100" started-at="2018-09-12T02:49:46Z" finished-at="2018-09-12T02:49:46Z">
+    <test name="Default test" duration-ms="113" started-at="2018-09-12T05:05:40Z" finished-at="2018-09-12T05:05:40Z">
       <class name="com.testjenkins.AppTest">
-        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:com.testjenkins.AppTest@62ee68d8]" name="shouldAnswerWithTrue" duration-ms="35" started-at="2018-09-12T02:49:46Z" finished-at="2018-09-12T02:49:46Z">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:com.testjenkins.AppTest@1794d431]" name="shouldAnswerWithTrue" duration-ms="32" started-at="2018-09-12T05:05:40Z" finished-at="2018-09-12T05:05:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldAnswerWithTrue -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.testjenkins.AppTest@1794d431]" name="test1" duration-ms="3" started-at="2018-09-12T05:05:40Z" finished-at="2018-09-12T05:05:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
       </class> <!-- com.testjenkins.AppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
