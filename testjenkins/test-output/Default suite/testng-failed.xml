@@ -5,7 +5,7 @@
     <classes>
       <class name="com.testjenkins.AppTest">
         <methods>
-          <include name="testLogin" invocation-numbers="0"/>
+          <include name="testget"/>
         </methods>
       </class> <!-- com.testjenkins.AppTest -->
     </classes>

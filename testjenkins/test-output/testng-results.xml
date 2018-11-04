@@ -1,46 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="196" started-at="2018-09-12T05:10:34Z" finished-at="2018-09-12T05:10:34Z">
+  <suite name="Default suite" duration-ms="1426" started-at="2018-11-04T09:18:34Z" finished-at="2018-11-04T09:18:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="196" started-at="2018-09-12T05:10:34Z" finished-at="2018-09-12T05:10:34Z">
+    <test name="Default test" duration-ms="1426" started-at="2018-11-04T09:18:34Z" finished-at="2018-11-04T09:18:35Z">
       <class name="com.testjenkins.AppTest">
-        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:com.testjenkins.AppTest@57baeedf]" name="shouldAnswerWithTrue" duration-ms="34" started-at="2018-09-12T05:10:34Z" finished-at="2018-09-12T05:10:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldAnswerWithTrue -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.testjenkins.AppTest@57baeedf]" name="test1" duration-ms="3" started-at="2018-09-12T05:10:34Z" finished-at="2018-09-12T05:10:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="FAIL" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.testjenkins.AppTest@57baeedf]" name="testLogin" duration-ms="62" started-at="2018-09-12T05:10:34Z" data-provider="user" finished-at="2018-09-12T05:10:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="testget()[pri:0, instance:com.testjenkins.AppTest@53b32d7]" name="testget" duration-ms="1330" started-at="2018-11-04T09:18:34Z" finished-at="2018-11-04T09:18:35Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [a] but found [b]]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [a] but found [b]
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-at org.testng.Assert.assertEquals(Assert.java:118)
-at org.testng.Assert.assertEquals(Assert.java:453)
-at org.testng.Assert.assertEquals(Assert.java:463)
-at com.testjenkins.AppTest.testLogin(AppTest.java:40)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at com.testjenkins.InterKeyWords.testGet(InterKeyWords.java:61)
+at com.testjenkins.AppTest.testget(AppTest.java:11)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -71,23 +50,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:com.testjenkins.AppTest@57baeedf]" name="testLogin" duration-ms="5" started-at="2018-09-12T05:10:34Z" data-provider="user" finished-at="2018-09-12T05:10:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[b]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123456]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
+        </test-method> <!-- testget -->
       </class> <!-- com.testjenkins.AppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

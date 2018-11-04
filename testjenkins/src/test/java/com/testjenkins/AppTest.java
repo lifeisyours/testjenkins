@@ -1,43 +1,14 @@
 package com.testjenkins;
 
-
-import static org.testng.Assert.assertTrue;
-
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
-    @Test
-    public void test1()
-    {
-        System.out.println("this is a test");
-    }
-    @DataProvider( name= "user")
-    public Object[][] user(){
-    return new Object[][]{
-              { "b", "123456"},
-              { "a", "123456"}
-             
-    };
-}
+public class AppTest{
+	
+	@Test
+	public void testget() {
+		InterKeyWords intertry = new InterKeyWords();
+		intertry.testGet("http://v.juhe.cn/laohuangli/d", "date=2018-09-09&key=3d78dbaceb49f5be61ccb171aadf38b0");
+	}
 
-	@Test(dataProvider ="user" )
-	  public void testLogin(String userName,  String passWord) { 
-		      Assert. assertEquals("b",userName);
-	          
-}  
 }
